@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             });
             builder.show();
         }else{
-            Toast.makeText(getApplicationContext(),"Nothing scanned!",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Nothing scanned :-(",Toast.LENGTH_SHORT).show();
         }
     }
 }
