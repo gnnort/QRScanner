@@ -27,9 +27,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 IntentIntegrator intentIntegrator = new IntentIntegrator(MainActivity.this);
+                intentIntegrator.setCameraId(0); //1=FRONTCAM 0=BACKCAM
                 intentIntegrator.setPrompt("Vol up = FLASH");
                 intentIntegrator.setBeepEnabled(true);
-                intentIntegrator.setOrientationLocked(true);
+                intentIntegrator.setOrientationLocked(false);
                 intentIntegrator.setCaptureActivity(Capture.class);
                 intentIntegrator.initiateScan();
             }

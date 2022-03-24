@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076647462632",
+    "project_id": "qr-fifthbro",
+    "storage_bucket": "qr-fifthbro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076647462632:android:403d66621d4e464c22eb5d",
+        "android_client_info": {
+          "package_name": "com.example.qrdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076647462632-fr3tnocl67aknouqmuu3ml4a4q68sjsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ8eSoy5WRa2YsPkrQT7KbyrTtU-b7TxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076647462632-fr3tnocl67aknouqmuu3ml4a4q68sjsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
